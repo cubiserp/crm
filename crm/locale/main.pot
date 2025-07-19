@@ -1675,11 +1675,11 @@ msgid "ERPNext is not integrated with the CRM"
 msgstr ""
 
 #: frontend/src/components/Settings/ERPNextSettings.vue:4
-msgid "ERPNext settings"
+msgid "ERP settings"
 msgstr ""
 
 #: frontend/src/components/Settings/ERPNextSettings.vue:5
-msgid "ERPNext settings updated"
+msgid "ERP settings updated"
 msgstr ""
 
 #: frontend/src/components/FieldLayout/Field.vue:91
