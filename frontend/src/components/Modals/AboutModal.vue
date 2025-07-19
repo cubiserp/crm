@@ -29,53 +29,46 @@
         </div>
         <hr class="border-t my-3 mx-2" />
         <p class="text-sm text-ink-gray-6 px-2 mt-2">
-          © Frappe Technologies Pvt. Ltd. and contributors
+          © CUBIS Tech. and contributors
         </p>
       </div>
     </template>
   </Dialog>
 </template>
 <script setup>
-import { Tooltip } from 'frappe-ui'
 import CRMLogo from '@/components/Icons/CRMLogo.vue'
 import LucideGlobe from '~icons/lucide/globe'
 import LucideGitHub from '~icons/lucide/github'
 import LucideHeadset from '~icons/lucide/headset'
 import LucideBug from '~icons/lucide/bug'
 import LucideBookOpen from '~icons/lucide/book-open'
-import TelegramIcon from '@/components/Icons/TelegramIcon.vue'
 
 let show = defineModel()
 
 let links = [
   {
     label: __('Website'),
-    url: 'https://frappe.io/crm',
+    url: 'https://cubetiqs.com/cubiserp/crm',
     icon: LucideGlobe,
   },
   {
     label: __('GitHub Repository'),
-    url: 'https://github.com/frappe/crm',
+    url: 'https://github.com/cubiserp/crm',
     icon: LucideGitHub,
   },
   {
     label: __('Documentation'),
-    url: 'https://docs.frappe.io/crm',
+    url: 'https://cubetiqs.com/cubiserp/docs/crm',
     icon: LucideBookOpen,
   },
   {
-    label: __('Telegram Channel'),
-    url: 'https://t.me/frappecrm',
-    icon: TelegramIcon,
-  },
-  {
     label: __('Report an Issue'),
-    url: 'https://github.com/frappe/crm/issues',
+    url: 'https://github.com/cubiserp/crm/issues',
     icon: LucideBug,
   },
   {
     label: __('Contact Support'),
-    url: 'https://support.frappe.io',
+    url: 'https://support.cubetiqs.com',
     icon: LucideHeadset,
   },
 ]
