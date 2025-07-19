@@ -2159,11 +2159,11 @@ msgstr ""
 
 #. Name of a Workspace
 #: crm/fcrm/workspace/frappe_crm/frappe_crm.json
-msgid "Frappe CRM"
+msgid "CUBIS CRM"
 msgstr ""
 
 #: frontend/src/components/Layouts/AppSidebar.vue:603
-msgid "Frappe CRM mobile"
+msgid "CUBIS CRM mobile"
 msgstr ""
 
 #. Option for the 'Weekly Off' (Select) field in DocType 'CRM Holiday List'

@@ -600,7 +600,7 @@ const articles = ref([
     ],
   },
   {
-    title: __('Frappe CRM mobile'),
+    title: __('CUBIS CRM mobile'),
     opened: false,
     subArticles: [
       { name: 'mobile-app-installation', title: __('Mobile app installation') },
